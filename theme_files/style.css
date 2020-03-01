@@ -5,12 +5,12 @@
 	Author: StudioPress
 	Author URI: https://www.studiopress.com/
 	Version: 3.1.5
- 
+
 	Tags: one-column, two-columns, three-columns, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
- 
+
 	Template: genesis
 	Template Version: 2.1
- 
+
 	License: GPL-2.0+
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -462,6 +462,17 @@ video,
 
 img {
   height: auto;
+}
+
+/* custom
+--------------------------------------------- */
+.widget_custom_html {
+  border-radius: 5px;
+  opacity: 0.94;
+}
+
+.widget_nav_menu .widgettitle {
+  display: none;
 }
 
 /* Gallery
@@ -1151,7 +1162,7 @@ img#wpstats {
 .title-area {
   float: left;
   padding: 16px 0;
-  width: 300px;
+  width: 375px;
 }
 
 .header-image .title-area {
@@ -1219,7 +1230,7 @@ img#wpstats {
 .site-header .widget-area {
   float: right;
   text-align: right;
-  width: 800px;
+  width: 725px;
 }
 
 .site-header .widget-area li {
@@ -2132,31 +2143,6 @@ body.agency-pro-red {
 ---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1180px) {
-  .site-inner,
-  .wrap {
-    max-width: 960px;
-  }
-
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-sidebar-content .content-sidebar-wrap {
-    width: 740px;
-  }
-
-  .content {
-    width: 620px;
-  }
-
-  .site-header .widget-area {
-    width: 660px;
-  }
-
-  .sidebar-content-sidebar .content,
-  .sidebar-sidebar-content .content,
-  .content-sidebar-sidebar .content {
-    width: 400px;
-  }
-
   .footer-widgets-1,
   .footer-widgets-2,
   .footer-widgets-3,
@@ -2173,7 +2159,7 @@ body.agency-pro-red {
   }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1180px) {
   .site-inner,
   .wrap {
     max-width: 760px;
