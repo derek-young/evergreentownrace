@@ -1,6 +1,3 @@
-const React = require("react");
-const ReactDOM = require("react-dom");
-
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
