@@ -16,7 +16,12 @@ add_action( 'wp_enqueue_scripts', 'agency_enqueue_scripts' );
  */
 function agency_enqueue_scripts() {
 
-	if ( is_active_sidebar( 'home-top' ) || is_active_sidebar( 'home-middle' ) || is_active_sidebar( 'home-bottom' ) ) {
+	if (
+    is_active_sidebar( 'home-top' ) ||
+    is_active_sidebar( 'home-1' ) ||
+    is_active_sidebar( 'home-2' ) ||
+    is_active_sidebar( 'home-bottom' )
+  ) {
 
 		wp_enqueue_script( 'scrollTo', get_stylesheet_directory_uri() . '/js/jquery.scrollTo.min.js', array( 'jquery' ), '2.1.2', true );
 		wp_enqueue_script( 'localScroll', get_stylesheet_directory_uri() . '/js/jquery.localScroll.min.js', array( 'scrollTo' ), '2.0.0', true );
@@ -33,7 +38,12 @@ add_action( 'genesis_meta', 'agency_home_genesis_meta' );
  */
 function agency_home_genesis_meta() {
 
-	if ( is_active_sidebar( 'home-top' ) || is_active_sidebar( 'home-middle' ) || is_active_sidebar( 'home-bottom' ) ) {
+	if (
+    is_active_sidebar( 'home-top' ) ||
+    is_active_sidebar( 'home-1' ) ||
+    is_active_sidebar( 'home-2' ) ||
+    is_active_sidebar( 'home-bottom' )
+  ) {
 
 		// Force content-sidebar layout setting.
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
@@ -79,10 +89,15 @@ function agency_homepage_top() {
 
 function agency_homepage_widgets() {
 
-	genesis_widget_area( 'home-middle', array(
-		'before' => '<div id="home-middle" class="home-middle widget-area"><div class="wrap">',
+	genesis_widget_area( 'home-1', array(
+		'before' => '<div id="home-1" class="home-1 widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
+
+  genesis_widget_area( 'home-2', array(
+    'before' => '<div id="home-2" class="home-2 widget-area"><div class="wrap">',
+    'after'  => '</div></div>',
+  ) );
 
 	genesis_widget_area( 'home-bottom', array(
 		'before' => '<div id="home-bottom" class="home-bottom widget-area"><div class="wrap">',

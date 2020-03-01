@@ -72,7 +72,7 @@ function agency_enqueue_backstretch_scripts() {
 
 // Add new image sizes.
 add_image_size( 'home-bottom', 380, 150, TRUE );
-add_image_size( 'home-middle', 380, 380, TRUE );
+add_image_size( 'general-info', 380, 380, TRUE );
 
 // Add support for custom background.
 add_theme_support( 'custom-background' );
@@ -141,9 +141,34 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the top section of the homepage.', 'agency-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'home-middle',
-	'name'        => __( 'Home Middle', 'agency-pro' ),
-	'description' => __( 'This is the middle section of the homepage.', 'agency-pro' ),
+	'id'          => 'home-1',
+	'name'        => __( 'Home 1', 'agency-pro' ),
+	'description' => __( 'This is the first section of the homepage.', 'agency-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'home-2',
+	'name'        => __( 'Home 2', 'agency-pro' ),
+	'description' => __( 'This is the second section of the homepage.', 'agency-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'home-3',
+	'name'        => __( 'Home 3', 'agency-pro' ),
+	'description' => __( 'This is the third section of the homepage.', 'agency-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'home-4',
+	'name'        => __( 'Home 4', 'agency-pro' ),
+	'description' => __( 'This is the fourth section of the homepage.', 'agency-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'home-5',
+	'name'        => __( 'Home 5', 'agency-pro' ),
+	'description' => __( 'This is the fifth section of the homepage.', 'agency-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'home-6',
+	'name'        => __( 'Home 6', 'agency-pro' ),
+	'description' => __( 'This is the sixth section of the homepage.', 'agency-pro' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'home-bottom',
