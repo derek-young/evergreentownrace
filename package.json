@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:ci": "npx babel src --out-dir ./public --presets react-app/prod",
     "start": "npx babel --watch src --out-dir ./public --presets react-app/prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
