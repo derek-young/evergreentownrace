@@ -17,15 +17,14 @@ const AlpineRescue = () => (
         Rescue Team's assistance is always given free of charge! In case of
         emergency simply dial 911 and help will be dispatched.
       </p>
-    </div>
-    <hr />
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/watch?time_continue=4&v=AZborDwP548&feature=emb_logo"
-        allowfullscreen
-      />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/AZborDwP548"
+          allowfullscreen
+        />
+      </div>
     </div>
   </div>
 );
