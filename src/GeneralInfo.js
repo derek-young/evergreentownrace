@@ -1,4 +1,4 @@
-class LikeButton extends React.Component {
+class GeneralInfo extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -13,6 +13,6 @@ class LikeButton extends React.Component {
   }
 }
 
-const domContainer = document.getElementById("like_button_container");
+const domContainer = document.getElementById("section_general_info");
 
-ReactDOM.render(<LikeButton />, domContainer);
+ReactDOM.render(<GeneralInfo />, domContainer);
