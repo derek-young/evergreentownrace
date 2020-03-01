@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 class LikeButton extends React.Component {
   constructor(props) {
@@ -14,3 +15,7 @@ class LikeButton extends React.Component {
     return <button onClick={() => this.setState({ liked: true })}>Like</button>;
   }
 }
+
+const domContainer = document.getElementById("like_button_container");
+
+ReactDOM.render(<LikeButton />, domContainer);
