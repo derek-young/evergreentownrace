@@ -20,6 +20,10 @@ function agency_enqueue_scripts() {
     is_active_sidebar( 'home-top' ) ||
     is_active_sidebar( 'home-1' ) ||
     is_active_sidebar( 'home-2' ) ||
+		is_active_sidebar( 'home-3' ) ||
+		is_active_sidebar( 'home-4' ) ||
+		is_active_sidebar( 'home-5' ) ||
+		is_active_sidebar( 'home-6' ) ||
     is_active_sidebar( 'home-bottom' )
   ) {
 
@@ -42,6 +46,10 @@ function agency_home_genesis_meta() {
     is_active_sidebar( 'home-top' ) ||
     is_active_sidebar( 'home-1' ) ||
     is_active_sidebar( 'home-2' ) ||
+		is_active_sidebar( 'home-3' ) ||
+		is_active_sidebar( 'home-4' ) ||
+		is_active_sidebar( 'home-5' ) ||
+		is_active_sidebar( 'home-6' ) ||
     is_active_sidebar( 'home-bottom' )
   ) {
 
@@ -98,6 +106,26 @@ function agency_homepage_widgets() {
     'before' => '<div id="home-2" class="home-2 widget-area"><div class="wrap">',
     'after'  => '</div></div>',
   ) );
+
+	genesis_widget_area( 'home-3', array(
+		'before' => '<div id="home-3" class="home-3 widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+
+	genesis_widget_area( 'home-4', array(
+		'before' => '<div id="home-4" class="home-4 widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+
+	genesis_widget_area( 'home-5', array(
+		'before' => '<div id="home-5" class="home-5 widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+
+	genesis_widget_area( 'home-6', array(
+		'before' => '<div id="home-6" class="home-6 widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
 
 	genesis_widget_area( 'home-bottom', array(
 		'before' => '<div id="home-bottom" class="home-bottom widget-area"><div class="wrap">',

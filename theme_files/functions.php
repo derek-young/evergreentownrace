@@ -72,7 +72,12 @@ function agency_enqueue_backstretch_scripts() {
 
 // Add new image sizes.
 add_image_size( 'home-bottom', 380, 150, TRUE );
-add_image_size( 'general-info', 380, 380, TRUE );
+add_image_size( 'home-1', 380, 380, TRUE );
+add_image_size( 'home-2', 380, 380, TRUE );
+add_image_size( 'home-3', 380, 380, TRUE );
+add_image_size( 'home-4', 380, 380, TRUE );
+add_image_size( 'home-5', 380, 380, TRUE );
+add_image_size( 'home-6', 380, 380, TRUE );
 
 // Add support for custom background.
 add_theme_support( 'custom-background' );
