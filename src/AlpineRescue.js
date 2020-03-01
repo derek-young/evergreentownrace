@@ -1,0 +1,35 @@
+const AlpineRescue = () => (
+  <div>
+    <div>
+      <p>
+        <a href="http://www.alpinerescueteam.org/" target="_blank">
+          ALPINE RESCUE TEAM
+        </a>
+      </p>
+      <p>
+        The mission of Alpine Rescue Team is to ensure all-weather, 24/7, search
+        and rescue response, preparedness, community education, coordination and
+        leadership to Colorado's residents and visitors. Alpine Rescue Team
+        responds to emergencies such as avalanches, lost hikers,
+        high-altitude/vertical rescues and/or other situations in Colorado's
+        mountainous terrain. Alpine Rescue is an independent, 501 (c) 3
+        volunteer organization, not a government agency. Available 24/7, Alpine
+        Rescue Team's assistance is always given free of charge! In case of
+        emergency simply dial 911 and help will be dispatched.
+      </p>
+    </div>
+    <hr />
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/watch?time_continue=4&v=AZborDwP548&feature=emb_logo"
+        allowfullscreen
+      />
+    </div>
+  </div>
+);
+
+const domContainer = document.getElementById("section_alpine_rescue");
+
+ReactDOM.render(<AlpineRescue />, domContainer);
