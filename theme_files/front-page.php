@@ -98,32 +98,32 @@ function agency_homepage_top() {
 function agency_homepage_widgets() {
 
 	genesis_widget_area( 'home-1', array(
-		'before' => '<div id="home-1" class="home-1 widget-area"><div class="wrap">',
+		'before' => '<div id="home-1" class="home-middle widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 
   genesis_widget_area( 'home-2', array(
-    'before' => '<div id="home-2" class="home-2 widget-area"><div class="wrap">',
+    'before' => '<div id="home-2" class="home-middle widget-area"><div class="wrap">',
     'after'  => '</div></div>',
   ) );
 
 	genesis_widget_area( 'home-3', array(
-		'before' => '<div id="home-3" class="home-3 widget-area"><div class="wrap">',
+		'before' => '<div id="home-3" class="home-middle widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 
 	genesis_widget_area( 'home-4', array(
-		'before' => '<div id="home-4" class="home-4 widget-area"><div class="wrap">',
+		'before' => '<div id="home-4" class="home-middle widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 
 	genesis_widget_area( 'home-5', array(
-		'before' => '<div id="home-5" class="home-5 widget-area"><div class="wrap">',
+		'before' => '<div id="home-5" class="home-middle widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 
 	genesis_widget_area( 'home-6', array(
-		'before' => '<div id="home-6" class="home-6 widget-area"><div class="wrap">',
+		'before' => '<div id="home-6" class="home-middle widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 
