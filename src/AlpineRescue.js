@@ -1,11 +1,12 @@
 const AlpineRescue = () => (
   <div>
+    <h3>
+      <a href="http://www.alpinerescueteam.org/" target="_blank">
+        Alpine Rescue Team
+      </a>
+    </h3>
+    <hr />
     <div>
-      <p>
-        <a href="http://www.alpinerescueteam.org/" target="_blank">
-          ALPINE RESCUE TEAM
-        </a>
-      </p>
       <p>
         The mission of Alpine Rescue Team is to ensure all-weather, 24/7, search
         and rescue response, preparedness, community education, coordination and

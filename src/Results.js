@@ -1,5 +1,7 @@
 const Results = () => (
   <div>
+    <h3>Results</h3>
+    <hr />
     <div>
       <p>
         An informal brunch at the Evergreen Lake House will follow the race.

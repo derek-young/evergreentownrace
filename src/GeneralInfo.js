@@ -1,6 +1,7 @@
 const GeneralInfo = () => (
   <div>
     <h3>General Information</h3>
+    <hr />
     <div>
       <p>
         COURSE: Both the 5K and 10K courses wind gradually down Upper Bear

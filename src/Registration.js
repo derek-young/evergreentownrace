@@ -1,5 +1,7 @@
 const Registration = () => (
   <div>
+    <h3>Registration</h3>
+    <hr />
     <div>
       <p>
         Your entry fee includes an official number, free transportation to the

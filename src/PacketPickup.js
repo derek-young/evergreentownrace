@@ -1,5 +1,7 @@
 const PacketPickup = () => (
   <div>
+    <h3>Packet Pickup & Directions</h3>
+    <hr />
     <div>
       <p>
         RACE DAY PACKET PICK-UP: Online, Mail-In, and Race Day entrants may pick
