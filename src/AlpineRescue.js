@@ -1,7 +1,11 @@
 const AlpineRescue = () => (
   <div>
     <h3>
-      <a href="http://www.alpinerescueteam.org/" target="_blank">
+      <a
+        style={{ color: "#7AC74F" }}
+        href="http://www.alpinerescueteam.org/"
+        target="_blank"
+      >
         Alpine Rescue Team
       </a>
     </h3>
@@ -23,7 +27,7 @@ const AlpineRescue = () => (
           width="560"
           height="315"
           src="https://www.youtube.com/embed/AZborDwP548"
-          allowfullscreen
+          allowFullScreen
         />
       </div>
     </div>

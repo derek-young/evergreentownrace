@@ -436,6 +436,10 @@ h3 {
   font-size: 24px;
 }
 
+.custom-html-widget h3 {
+  color: #7ac74f;
+}
+
 h4 {
   font-size: 20px;
 }
@@ -716,6 +720,9 @@ td {
 
 /* Site Containers
 --------------------------------------------- */
+.site-container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 .header-full-width .site-container,
 .site-container {
@@ -1983,7 +1990,7 @@ body.agency-pro-blue {
 .agency-pro-green .site-title a:hover,
 .agency-pro-green a,
 .agency-pro-green.agency-pro-home .featured-content a:hover {
-  color: #36c38c;
+  color: #a1cf6b;
 }
 
 .agency-pro-green .archive-pagination li a:hover,
@@ -2014,7 +2021,7 @@ body.agency-pro-blue {
 .agency-pro-green .genesis-nav-menu a:hover,
 .agency-pro-green .genesis-nav-menu .current-menu-item > a,
 .agency-pro-green .genesis-nav-menu .v .current-menu-item > a:hover {
-  border-color: #36c38c;
+  border-color: #a1cf6b;
 }
 
 .agency-pro-green .archive-pagination li a:hover,
@@ -2026,7 +2033,7 @@ body.agency-pro-blue {
 .agency-pro-green input:hover[type="reset"],
 .agency-pro-green input:hover[type="submit"],
 body.agency-pro-green {
-  background-color: #36c38c;
+  background-color: #a1cf6b;
 }
 
 /* Agency Pro Orange

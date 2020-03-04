@@ -21,6 +21,11 @@ const GeneralInfo = () => (
         This is a point to point route. The 5k starts at the halfway point on
         the 10k course. Both distances have the same finish line.
       </p>
+      <p>ELEVATION PROFILE</p>
+      <img
+        alt="Race elevation profile"
+        src="/wp-content/uploads/2020/03/elevation_profile.jpg"
+      />
     </div>
     <hr />
     <div>
