@@ -11,24 +11,30 @@ const Registration = () => (
     </div>
     <hr />
     <div>
-      <p>ENTRY FEES</p>
-      <p>5K Run/Walk</p>
-      <ul>
-        <li>Jan. 1 - Jan. 31: $25</li>
-        <li>Feb. 1 - June 30: $30</li>
-        <li>July 1 - Aug. 1(noon): $35</li>
-      </ul>
-      <p>10K Run</p>
-      <ul>
-        <li>Jan. 1 - Jan. 31: $30</li>
-        <li>Feb. 1 - June 30: $35</li>
-        <li>July 1 - Aug. 1(noon): $40</li>
-      </ul>
+      <h6>ENTRY FEES</h6>
+      <div style={{ display: "flex", margin: "24px 0" }}>
+        <div style={{ padding: "0 40px" }}>
+          <p style={{ marginBottom: 16 }}>5K RUN/WALK:</p>
+          <ul>
+            <li>Jan. 1 - Jan. 31: $25</li>
+            <li>Feb. 1 - June 30: $30</li>
+            <li>July 1 - Aug. 1(noon): $35</li>
+          </ul>
+        </div>
+        <div style={{ padding: "0 40px" }}>
+          <p style={{ marginBottom: 16 }}>10K RUN:</p>
+          <ul>
+            <li>Jan. 1 - Jan. 31: $30</li>
+            <li>Feb. 1 - June 30: $35</li>
+            <li>July 1 - Aug. 1(noon): $40</li>
+          </ul>
+        </div>
+      </div>
       <p>Please choose your event wisely as you cannot change on race day.</p>
     </div>
     <hr />
     <div>
-      <p>TWO WAYS TO REGISTER:</p>
+      <h6>TO REGISTER</h6>
       <p>
         <a
           href="https://www.imathlete.com/#/legacy?url=%2Fevents%2FEventReg%2FEventReg_SelectType.aspx%3FfEID%3D73298"

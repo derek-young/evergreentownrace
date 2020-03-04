@@ -12,20 +12,22 @@ const Results = () => (
     </div>
     <hr />
     <div>
+      <h6>RESULTS</h6>
       <p>
-        RESULTS: Race results will be posted here live during the race.
-        Participants must cross the the timing mats at the finish line with
-        their bib number visible on the front and not covered by clothing.
-        Results will only be edited (for mispelled names, etc.) for two weeks
-        following the event. All results are based on gun time.
+        Race results will be posted here live during the race. Participants must
+        cross the the timing mats at the finish line with their bib number
+        visible on the front and not covered by clothing. Results will only be
+        edited (for mispelled names, etc.) for two weeks following the event.
+        All results are based on gun time.
       </p>
     </div>
     <hr />
     <div>
+      <h6>AWARDS</h6>
       <p>
-        AWARDS: Awards will be based on gun-time for your event, and will be
-        presented on the lawn in front of the lakehouse. *You must be present to
-        pick up your award. Awards will not be mailed.
+        Awards will be based on gun-time for your event, and will be presented
+        on the lawn in front of the lakehouse. *You must be present to pick up
+        your award. Awards will not be mailed.
       </p>
     </div>
   </div>

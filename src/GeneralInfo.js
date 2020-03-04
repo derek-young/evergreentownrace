@@ -3,33 +3,38 @@ const GeneralInfo = () => (
     <h3>General Information</h3>
     <hr />
     <div>
+      <h6>COURSE</h6>
       <p>
-        COURSE: Both the 5K and 10K courses wind gradually down Upper Bear
-        Creek, with a finish near Evergreen Lake. This course treats
-        participants to one of the most scenic and fastest races in Colorado. In
-        fact, this may be one of the best races you have ever run! The fastest
-        5K ever run in Colorado was run on this course - 14:07 by Jason Hubbard
-        in 1998.
+        Both the 5K and 10K courses wind gradually down Upper Bear Creek, with a
+        finish near Evergreen Lake. This course treats participants to one of
+        the most scenic and fastest races in Colorado. In fact, this may be one
+        of the best races you have ever run! The fastest 5K ever run in Colorado
+        was run on this course - 14:07 by Jason Hubbard in 1998.
       </p>
       <p>
-        <a
-          href="http://www.evergreentownrace.org/images/ETR_CourseMap.jpg"
-          target="_blank"
-        >
-          Click Here for a 10k course map.
-        </a>{" "}
         This is a point to point route. The 5k starts at the halfway point on
         the 10k course. Both distances have the same finish line.
       </p>
+      <p>COURSE MAP</p>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img
+          alt="Race elevation profile"
+          src="/wp-content/uploads/2020/03/race_course.png"
+          style={{ maxWidth: "90%" }}
+        />
+      </div>
       <p>ELEVATION PROFILE</p>
-      <img
-        alt="Race elevation profile"
-        src="/wp-content/uploads/2020/03/elevation_profile.jpg"
-      />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img
+          alt="Race elevation profile"
+          src="/wp-content/uploads/2020/03/elevation_profile.jpg"
+          style={{ maxWidth: "90%" }}
+        />
+      </div>
     </div>
     <hr />
     <div>
-      <p>RACE SCHEDULE</p>
+      <h6>RACE SCHEDULE</h6>
       <ul>
         <li>6:30 a.m. - Registration Opens</li>
         <li>6:30 a.m. - Buses Start</li>
