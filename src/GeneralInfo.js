@@ -16,11 +16,13 @@ const GeneralInfo = () => (
         the 10k course. Both distances have the same finish line.
       </p>
       <p>COURSE MAP</p>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginBottom: 40 }}
+      >
         <img
           alt="Race elevation profile"
           src="/wp-content/uploads/2020/03/race_course.png"
-          style={{ maxWidth: "90%" }}
+          style={{ maxWidth: "85%" }}
         />
       </div>
       <p>ELEVATION PROFILE</p>

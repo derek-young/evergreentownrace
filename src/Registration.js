@@ -35,38 +35,34 @@ const Registration = () => (
     <hr />
     <div>
       <h6>TO REGISTER</h6>
+      <a
+        className="button"
+        href="https://www.imathlete.com/#/legacy?url=%2Fevents%2FEventReg%2FEventReg_SelectType.aspx%3FfEID%3D73298"
+        target="_blank"
+        style={{ marginBottom: 16 }}
+      >
+        Register Online
+      </a>
       <p>
-        <a
-          href="https://www.imathlete.com/#/legacy?url=%2Fevents%2FEventReg%2FEventReg_SelectType.aspx%3FfEID%3D73298"
-          target="_blank"
-        >
-          Register Online
-        </a>
-        : Online registration will open on January 1st, 2020 and will close at
+        Online registration will open on January 1st, 2020 and will close at
         noon on Saturday August 1st. Online processing fees will apply to online
-        entries.
+        entries. Bib numbers for online registrants can be picked up at&nbsp;
+        <a href="#home-3">these times and locations</a>. They cannot be picked
+        up at Boone Mountain Sports.
       </p>
       <p>
-        <strong>
-          Bib numbers for online registrants can be picked up at&nbsp;
-          <a href="home-3#">these times and locations</a>. They cannot be picked
-          up at Boone Mountain Sports.
-        </strong>
-      </p>
-      <p>
-        Walk-In Registration: Locations will open on Thursday July 9th. Entry
+        WALK-IN REGISTRATION: Locations will open on Thursday July 9th. Entry
         fees may be paid by cash or check at walk-in registration locations.
         Credit cards will not be accepted for payment. You may register in
         person at the following locations:
       </p>
-      <ul>
+      <ul style={{ margin: "0 0 24px 24px" }}>
         <li>Runners Roost Lakewood - through Thursday July 30th at noon</li>
         <li>
           Boone Mountain sport in Evergreen - through Saturday August 2nd at
           noon
         </li>
       </ul>
-
       <p>
         Participants who register at a walk-in location will receive their bib
         number when they register.
@@ -80,7 +76,7 @@ const Registration = () => (
         the front and not covered by clothing.
       </p>
       <p>
-        Runners with Disabilities: We welcome runners of all abilities.
+        RUNNERS WITH DISABILITIES: We welcome runners of all abilities.
         Accommodations will be provided if necessary for the 5K distance. During
         registration, please select what accommodations are needed (Wheelchair
         accessibility, Double BIB for running guide, or Other). Please contact
