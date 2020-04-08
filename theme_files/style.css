@@ -159,7 +159,7 @@ pre {
   white-space: pre-wrap;
 }
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 small {
   font-size: 80%;
@@ -470,7 +470,8 @@ img {
 
 /* custom
 --------------------------------------------- */
-.widget_custom_html {
+.widget_custom_html,
+.widget_media_gallery {
   border-radius: 5px;
   opacity: 0.94;
 }

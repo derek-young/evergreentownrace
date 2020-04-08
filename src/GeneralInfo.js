@@ -46,6 +46,23 @@ const GeneralInfo = () => (
     </div>
     <hr />
     <div>
+      <h6>RACE SPONSORS</h6>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img
+          alt="Race sponsors"
+          src="/wp-content/uploads/2020/04/ETR_SponsorLogos.jpg"
+          style={{ maxWidth: "85%" }}
+        />
+      </div>
+      <a
+        href="https://etr.dreamhosters.com/wp-content/uploads/2020/04/SPONSORSHIP-LEVELS-2020.pdf"
+        target="_blank"
+      >
+        CLICK HERE FOR SPONSORSHIP INFORMATION
+      </a>
+    </div>
+    <hr />
+    <div>
       Most questions are answered right here on the race website.{" "}
       <strong>
         If you entered by mail, your entry was mailed directly to our timing
