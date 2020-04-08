@@ -5,14 +5,14 @@ const PacketPickup = () => (
     <div>
       <h6>PACKET PICKUP</h6>
       <p>
+        EARLY PACKET PICKUP: 2020 Packet Pickup locations will be announced
+        shortly
+      </p>
+      <p>
         ON RACE DAY: Online, Mail-In, and Race Day entrants may pick up their
         bib numbers at the bus pickup locations on race morning. 10K entrants
         will pick up their numbers at Xcel Energy in Evergreen. 5K entrants will
         pick up their bib numbers at Evergreen School.
-      </p>
-      <p>
-        EARLY PACKET PICKUP: 2020 Packet Pickup locations will be announced
-        shortly
       </p>
       <p>Shirts & Goody Bags will be distributed at the finish line.</p>
       <p>

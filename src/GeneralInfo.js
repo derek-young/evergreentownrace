@@ -54,6 +54,7 @@ const GeneralInfo = () => (
           style={{ maxWidth: "85%" }}
         />
       </div>
+      <br />
       <a
         href="https://etr.dreamhosters.com/wp-content/uploads/2020/04/SPONSORSHIP-LEVELS-2020.pdf"
         target="_blank"

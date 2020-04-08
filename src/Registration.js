@@ -59,7 +59,7 @@ const Registration = () => (
       <ul style={{ margin: "0 0 24px 24px" }}>
         <li>Runners Roost Lakewood - through Thursday July 30th at noon</li>
         <li>
-          Boone Mountain sport in Evergreen - through Saturday August 2nd at
+          Boone Mountain Sports in Evergreen - through Saturday August 2nd at
           noon
         </li>
       </ul>
