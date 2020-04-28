@@ -480,6 +480,11 @@ img {
   display: none;
 }
 
+.two-column-row {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Gallery
 --------------------------------------------- */
 
@@ -2295,6 +2300,10 @@ body.agency-pro-red {
 
   .site-inner {
     padding: 5%;
+  }
+
+  .two-column-row {
+    flex-direction: column;
   }
 }
 
